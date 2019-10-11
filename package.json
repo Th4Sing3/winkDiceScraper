@@ -1,0 +1,28 @@
+{
+  "name": "winkdicescraper",
+  "version": "1.0.0",
+  "description": "Navigate to wink.org website then start scraping dice bets data",
+  "main": "winkDiceScraper.js",
+  "dependencies": {
+    "puppeteer": "^1.20.0",
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Th4Sing3/winkDiceScraper"
+  },
+  "keywords": [
+    "wink",
+    "dice",
+    "scraper",
+    "rigged",
+    "af",
+    "obv",
+    "soon"
+  ],
+  "author": "0000010100111001",
+  "license": "MIT"
+}
