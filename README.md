@@ -1,5 +1,5 @@
 # winkDiceScraper
-This node script navigate to wink.org website then start scraping dice bets
+This node script navigate to wink.org website then start scraping dice bets. It use puppeteer library for navigation.
 
 ## Installation
 
