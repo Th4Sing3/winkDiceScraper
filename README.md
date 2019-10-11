@@ -1,17 +1,20 @@
 # winkDiceScraper
-This node script navigate to wink.org website then start scraping dice bets. It use puppeteer library for navigation.
+This node script navigate to wink.org website then start scraping dice bets data. 
+It use puppeteer library for internal navigation.
 
 ## Installation
 
-You will only need to do this once.
-
-1. Open a command prompt
-2. Navigate to the project folder
-3. Type `npm install` and press enter
+1. Put the folder containing the files in your project
+2. Open a command prompt
+3. Navigate to the winkDiceScraper folder
+4. Type `npm install` and press enter
+5. In your project file, declare const diceScrapper = require("./winkDiceScraper")
 
 ## Usage
-
-Run the application in the command prompt using
+In your code you'll have access 
 ```
-node winkDiceScraper
+diceScrapper.getWallets();//return all wallets
+diceScrapper.getBets();//return all bets
+diceScrapper.getWalletsNBets();//return all wallets n bets grouped by user
+diceScrapper.getBetsByWallet("enter wallet addy here");//return all bets for the wallet addy received in paramater
 ````
