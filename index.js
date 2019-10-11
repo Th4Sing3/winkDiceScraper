@@ -3,28 +3,17 @@ const puppeteer = require("puppeteer");
 const url = "https://cdn.wink.org";
 
 /* -------------- DEV -------------- */
-const dev = true; 						//when true it use local data structure below to store data else it will store in mysql db (TODO mysql db) 
-let wallets = {}; 						//global wallets object
-let bets = {}; 							//global bets object
-let walletsNBets = {}; 					//bets stored by users
+const dev = true;//when true it use local data structure below to store data else it will store in mysql db (TODO mysql db) 
+let wallets = {};//global wallets object
+let bets = {};//global bets object
+let walletsNBets = {};//bets stored by users
 /* --------------------------------- */
 
-/* 
-	This allow you to access these data from outside...
-	
-	In your js you add this line
-		const diceScrapper = require("./winkDiceScrapper")
-	then you can do
-		diceScrapper.getWallets(); 									//return all wallets
-		diceScrapper.getBets(); 									//return all bets
-		diceScrapper.getWalletsNBets(); 							//return all wallets n bets grouped
-		diceScrapper.getBetsByWallet("enter wallet addy here"); 	//return all bets for the wallet addy received in paramater
-*/
 module.exports = {	
-	getWallets:()=>{if(dev){return wallets;}else{}}, 					//return all wallets
-	getBets:()=>{if(dev){return bets;}else{}}, 							//return all bets
-	getWalletsNBets:()=>{if(dev){return walletsNBets;}else{}}, 			//return all wallets n bets grouped
-	getBetsByWallet:(addy)=>{if(dev){return walletsNBets[addy];}else{}} //return all bets for the wallet addy received in paramater
+	getWallets:()=>{if(dev){return wallets;}else{}},//return all wallets
+	getBets:()=>{if(dev){return bets;}else{}},//return all bets
+	getWalletsNBets:()=>{if(dev){return walletsNBets;}else{}},//return all wallets n bets grouped
+	getBetsByWallet:(addy)=>{if(dev){return walletsNBets[addy];}else{}}//return all bets for the wallet addy received in paramater
 };
 
 /* 
