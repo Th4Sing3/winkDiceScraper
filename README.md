@@ -21,3 +21,5 @@ diceScrapper.getBets();//return all bets
 diceScrapper.getWalletsNBets();//return all wallets n bets grouped by user
 diceScrapper.getBetsByWallet("enter wallet addy here");//return all bets for the wallet addy received in paramater
 ````
+If you like this or want to use it for yourself or commercially, contribution are welcome :)
+TRON wallet : THXp6NSTbqDBt6p1CpcFc38zLJN9BTdDDd
