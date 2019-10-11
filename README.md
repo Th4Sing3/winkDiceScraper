@@ -1,4 +1,7 @@
-# winkDiceScraper
+### Note
+This project still under development. No database implemented yet it store data in object that will be deleted when you will close your project.
+
+# WinkDiceScraper
 This node script navigate to wink.org website then start scraping dice bets data. 
 It use puppeteer library for internal navigation.
 
