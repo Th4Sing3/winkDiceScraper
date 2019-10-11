@@ -8,7 +8,7 @@ It use puppeteer library for internal navigation.
 2. Open a command prompt
 3. Navigate to the winkDiceScraper folder
 4. Type `npm install` and press enter
-5. In your project file, declare once : const diceScrapper = require("./winkDiceScraper")
+5. In your code, declare once : const diceScrapper = require("./winkDiceScraper")
 
 ## Usage
 In your code you'll have access 
