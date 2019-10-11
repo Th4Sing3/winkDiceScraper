@@ -1,5 +1,5 @@
 ### Note
-This project still under development. No database implemented yet it store data in object that will be deleted when you will close your project.
+This project still under development. No database implemented yet it store data in objects that will be deleted when you will close your project.
 
 # WinkDiceScraper
 This node script navigate to wink.org website then start scraping dice bets data. 
